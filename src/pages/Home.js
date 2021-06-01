@@ -5,8 +5,7 @@ import {
   StyleSheet, 
   TextInput, 
   Platform, 
-  FlatList,
-  StatusBar 
+  FlatList,   
 } from 'react-native';
 import { Button } from '../components/Button';
 import { SkillCard } from '../components/SkillCard';
@@ -38,9 +37,7 @@ export function Home() {
 
   return (
     <View style={styles.container}>
-      <StatusBar 
-        backgroundColor='#121015' 
-      />
+      
       <Text style={styles.title}>Welcome, Ricardo</Text>
 
       <Text style={styles.grettings}>
